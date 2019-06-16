@@ -2,7 +2,7 @@
 
 ## Fit
 ### Author: Luke Anton
-Repo: [Fit App]()
+Repo: 
 
 #### General comments
 You presented you project very well, you spoke clearly and articulated technical concepts effectively. Great to see you using tools such as Postman to test with. This is something that is used regularly in the industry and is great experience to have. You also explained what you learnt which was great and showed you did some hard work and have formed valid opinions about some of the tech used, like Reacts useState. Job well done! The looked great as well, big clasp for you 👏👏👏
@@ -36,7 +36,7 @@ Awesome to see you using Reacts `<Fragment>` component - keep up the good work �
 
 Wonderful use of conditional rendering in the Profiles component 👍
 
-Another thing you could do to improve your code would be to use the `required` attribute which is an out of the box attribute which comes with form elements. You can read more about it here [MDN Form - textarea  specs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+Another thing you could do to improve your code would be to use the `required` attribute which is an out of the box attribute which comes with form elements. You can read more about it here [MDN Form - select  specs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 
 Example of what you could refactore. This:
 ```

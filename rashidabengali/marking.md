@@ -27,7 +27,7 @@ instead of `margin: 20px 10px 10px 10px;` you could write `margin: 20px 10px 10p
 Or instead of this `margin: 10px 10px 10px 10px;` write `margin: 10px;`
 
 Try and delete unused methods in your templates with vue. In the Home.vue file there are a few mathods which return nothing
-```
+```js
   data() {
     return {
     }

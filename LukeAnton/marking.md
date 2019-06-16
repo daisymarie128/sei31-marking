@@ -17,7 +17,7 @@ Things to include for next time would be:
 - Languages and frameworks you might have used.
 - Versions of these frameworks
 - Setup process. i.e:
-	```
+	```js
 	Download [Yarn](https://yarnpkg.com/en/)
 	Run yarn install
 	yarn start
@@ -25,7 +25,7 @@ Things to include for next time would be:
 - You could also include a list of features which are still a work in process.
 
 Becareful when using local urls as links. This can become increasingly hard to maintain and remove when you need to deploy your site.
-```
+```js
 href="http://127.0.0.1:50119/client/index.html"
 ```
 
@@ -39,7 +39,7 @@ Wonderful use of conditional rendering in the Profiles component 👍
 Another thing you could do to improve your code would be to use the `required` attribute which is an out of the box attribute which comes with form elements. You can read more about it here [MDN Form - select  specs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 
 Example of what you could refactore. This:
-```
+```js
 <small>* = required field</small>
       <form className="form" onSubmit={e => onSubmit(e)}>
         <div className="form-group">
@@ -57,7 +57,7 @@ Example of what you could refactore. This:
 ```
 
 You could write this:
-```
+```js
       <form className="form" onSubmit={e => onSubmit(e)}>
         <div className="form-group">
           <select

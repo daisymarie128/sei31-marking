@@ -13,7 +13,7 @@ You presented very well, and were confident in speaking about technical aspects 
 Very well written readme, though also consider adding alink to the server repo as well, and vic-versa.
 
 There are some places where your using conditional rendering where you write it like so:
-```
+```js
 const progress: React.ReactNode =
 	currentPage == "dashboard" ? (
       <></>

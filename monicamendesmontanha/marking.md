@@ -25,7 +25,7 @@ It's good to see you understand the concept of this:
 To take your code further you could consider refactoring these parts to use arrow functions, it's important to learn what they are, and what they do. Because there are places you should and shouldn't use them. Try reading this article to get your head around them and implement them in your future work. [Useful article explaining arrow functions](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/)
 
 So this line:
-```
+```js
 this.handleReadMoreClick = this.handleReadMoreClick.bind(this);
 }
 
@@ -35,7 +35,7 @@ handleReadMoreClick(item, feedId) {
 
  Could be written as just 
 
-```
+```js
 handleReadMoreClick = (item, feedId) => {
 ```
 

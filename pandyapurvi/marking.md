@@ -22,13 +22,13 @@ instead of this:
 `const URL = 'https://server-job-board.herokuapp.com/jobs/'+ job_id +'.json'`
 
 You could write it like this:
-```
+```js
 const URL = `https://server-job-board.herokuapp.com/jobs/${job_id}.json`
 ```
 
 Use && logic rendering instead of ise else rendering
 Instead of this: 
-```
+```js
 {
   isEmployer
   ?  <button>Update</button>
@@ -37,6 +37,6 @@ Instead of this:
 ```
 
 Should be this:
-```
+```js
 {isEmployer && <button>Update</button>}
 ```

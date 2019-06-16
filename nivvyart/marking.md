@@ -16,14 +16,14 @@ You could consider breaking down your components into smaller chunks as well. `P
 
 Also consider reading up on es6 deconstruction methods. This can help with writting less code and helping making things more readable.
 instead or writting this out all the time.
-```
+```js
 username={this.props.match.params.username}
 repository={this.props.match.params.repository}
 startDate={this.props.match.params.startDate}
 ```
 
 You could deconstruct the props object like so.
-```
+```js
 const { username, repository, startDate } = this.state.match.params;
 
 username={username}
@@ -34,7 +34,7 @@ startDate={startDate}
 It looks like your code consistency changes through out the component. 
 It would be a good idea to get comfortable with learning what javascripts `this` does and what it means in relation to binding things.
 i.e some places you write:
-```
+```js
 this._handleUserChange = this._handleUserChange.bind(this);
 ```
 

@@ -24,7 +24,7 @@ You could consider creating helper functions outside of the main scope which you
 Also consider moving some of these into seperate files to break down the complexity in the file. files getting longer than 250-350 are what start to get very bloated.
 
 For example all of these objects you created could be made in a seperate file and exported.
-```
+```js
 		// object 5
     const coneGeometry = new THREE.ConeBufferGeometry( 1, 3, 30 );
     const coneMaterial = new THREE.MeshLambertMaterial( {color: '#147ACC', wireframe: false} );

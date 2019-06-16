@@ -18,7 +18,7 @@ At the very bottom you have the draw functions which get repeated quite abit eve
 
 This could be re-written into something like this:
 
-```
+```js
 function drawJaw(sideWidth, camWidth, shiftDown) {
 	curveVertex( sideWidth + (camWidth * 0.249), shiftDown + (camHeight * 0.319));
   curveVertex( sideWidth + (camWidth * 0.272), shiftDown + (camHeight * 0.385));
